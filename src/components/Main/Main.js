@@ -11,22 +11,20 @@ const ButtonGroup = styled.div`
   display: flex;
   justify-content: center;
   align-content: center;
- 
+  background-color: #9cbfa7;
 `;
 const Button = styled.button`
-border-radius: 50%;
-border: none;
-background-color: #4EA3B8;
-color: white;
-font-size:30px;
-padding: 20px;
-margin:20px;
-&:hover{
-    background-color: #C9F299
-}
-
-`
-
+  border-radius: 50%;
+  border: none;
+  background-color: #4ea3b8;
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+  margin: 20px;
+  &:hover {
+    background-color: #c9f299;
+  }
+`;
 
 const Main = () => {
   return (
