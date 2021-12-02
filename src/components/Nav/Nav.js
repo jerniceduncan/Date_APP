@@ -7,11 +7,14 @@ const Navigation = styled.div`
   box-shadow: 10px #888888;
   display: flex;
   align-content: flex-end;
+  color: #C9F299;
+  font-size: 40px;
+
 `;
 const Nav = () => {
   return (
     <div>
-      <Navigation>Vibz</Navigation>
+      <Navigation>Vibez</Navigation>
     </div>
   );
 };
