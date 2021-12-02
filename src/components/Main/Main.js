@@ -11,10 +11,20 @@ const ButtonGroup = styled.div`
   display: flex;
   justify-content: center;
   align-content: center;
-  align-items: center;
+ 
 `;
 const Button = styled.button`
-radius: 20px;
+border-radius: 50%;
+border: none;
+background-color: #4EA3B8;
+color: white;
+font-size:30px;
+padding: 20px;
+margin:20px;
+&:hover{
+    background-color: #C9F299
+}
+
 `
 
 
