@@ -9,15 +9,22 @@ const Navigation = styled.div`
   color: #C9F299;
   font-size: 60px;
 `;
+
+const ButtonGroupNav = styled.div`
+display: flex;
+justify-content: end;
+
+
+`
 const Button = styled.button`
 border: none;
 padding: 20px;
-background-color: #17a2b8;
+background-color: transparent;
 color: white;
 font-size: 15px;
 margin: 30px;
 &:hover {
-  background-color: #c9f299;
+  color: #c9f299;
 }
 
 
@@ -26,8 +33,10 @@ const Nav = () => {
   return (
     <div>
       <Navigation>Vibez
+        <ButtonGroupNav>
         <Button>Sign Up</Button>
         <Button>Sign In</Button>
+        </ButtonGroupNav>
       </Navigation>
       
     </div>

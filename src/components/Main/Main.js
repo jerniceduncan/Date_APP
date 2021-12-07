@@ -1,17 +1,20 @@
-import React from "react";
-
 import styled from "styled-components";
+import "./Main.css";
+import  SignUp  from "./../SignUp/SignUp";
 
 const Container = styled.div`
   width: 100%;
-  height: 800px;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #ffffff;
 `;
 const ButtonGroup = styled.div`
   display: flex;
   justify-content: center;
-  align-content: center;
   background-color: #9cbfa7;
+  height: 20%;
 `;
 const Button = styled.button`
   border-radius: 50%;
@@ -30,10 +33,14 @@ const Main = () => {
   return (
     <div>
       <Container>
-        <ButtonGroup>
-          <Button>Sign Up</Button>
-          <Button>Sign In</Button>
-        </ButtonGroup>
+        <div className="center">
+          <ButtonGroup>
+            {" "}
+            Find Love Today
+            <Button onClick={SignUp}>Sign Up</Button>
+            <Button>Sign In</Button>
+          </ButtonGroup>
+        </div>
       </Container>
     </div>
   );
