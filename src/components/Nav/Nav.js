@@ -34,8 +34,8 @@ const Nav = () => {
     <div>
       <Navigation>Vibez
         <ButtonGroupNav>
-        <Button>Sign Up</Button>
-        <Button>Sign In</Button>
+        {/* <Button>Sign Up</Button>
+        <Button>Sign In</Button> */} 
         </ButtonGroupNav>
       </Navigation>
       

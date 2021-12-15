@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import "./Main.css";
-import  SignUp  from "./../SignUp/SignUp";
+import SignUp from "./../SignUp/SignUp";
 
 const Container = styled.div`
   width: 100%;
@@ -17,13 +17,15 @@ const ButtonGroup = styled.div`
   height: 20%;
 `;
 const Button = styled.button`
+  display: flex;
+  justify-content: center;
   border-radius: 50%;
   border: none;
   background-color: #4ea3b8;
   color: white;
   font-size: 30px;
   padding: 20px;
-  margin: 20px;
+  margin: 15px;
   &:hover {
     background-color: #c9f299;
   }
