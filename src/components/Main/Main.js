@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import "./Main.css";
 import SignUp from "./../SignUp/SignUp";
+import SignIn from "../SignIn/SignIn";
 
 const Container = styled.div`
   width: 100%;
@@ -30,6 +31,11 @@ const Button = styled.button`
     background-color: #c9f299;
   }
 `;
+const divStyles ={
+  display: "flex", 
+  alignContent: "center",
+  color: "white"
+}
 
 const Main = () => {
   return (
@@ -38,9 +44,11 @@ const Main = () => {
         <div className="center">
           <ButtonGroup>
             {" "}
-            Find Love Today
+            <h1 style={divStyles}>
+              Find Love Today
+            </h1>
             <Button onClick={SignUp}>Sign Up</Button>
-            <Button>Sign In</Button>
+            <Button onClick={SignIn}>Sign In</Button>
           </ButtonGroup>
         </div>
       </Container>
