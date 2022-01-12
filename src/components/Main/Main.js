@@ -3,6 +3,7 @@ import "./Main.css";
 import SignUp from "./../SignUp/SignUp";
 import SignIn from "../SignIn/SignIn";
 
+
 const Container = styled.div`
   width: 100%;
   height: 80vh;
