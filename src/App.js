@@ -8,9 +8,7 @@ function App() {
     <div className="App">
       <Nav>Dating App</Nav>
       <Main />
-      <Footer/>
-
-  
+      <Footer />
     </div>
   );
 }
